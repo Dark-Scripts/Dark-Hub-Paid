@@ -9,7 +9,7 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
-_G.Key = "DarkHubPaid:)"
+_G.Key = "2022DarkHub"
 _G.KeyInput = "string"
 
 function MakeScriptHub1()
