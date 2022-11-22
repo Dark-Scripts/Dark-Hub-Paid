@@ -52,6 +52,11 @@ function MakeScriptHub8()
     loadstring(game:HttpGet(('https://pastebin.com/raw/NG0bk8UG')))() 
 end
 
+function MakeScriptHub9()
+    print("EnteredCorrectKey!")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Dark-Scripts/Master-Punching-Sim/main/Games"))() 
+end
+
 function CorrectKeyNotification()
     OrionLib:MakeNotification({
         Name = "Correct Key!",
@@ -105,6 +110,8 @@ Tab:AddButton({
                 MakeScriptHub7()
             elseif game.PlaceId == 2377868063 then
                 MakeScriptHub8()
+            elseif game.PlaceId == 10594623896 then
+	        MakeScriptHub9()
             end
         end
   	end    
